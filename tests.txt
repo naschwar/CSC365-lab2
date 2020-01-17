@@ -478,3 +478,489 @@ SS: CORONADO
 //Requirement: E1
 //Unavailable "students.txt"
 //Expected Output: return from program without error message
+
+//TC-55
+//Requirement:NR1
+//Expected Output:
+    //COOKUS XUAN
+    //ELHADDAD SHANTE
+    //SWEDLUND SHARRI
+    //CIGANEK MANIE
+    //COVINGTON TOMAS
+    //EARLY TORY
+    //LINHART LELA
+C: 107
+
+//TC-56
+//Requirement:NR1
+//Expected Output:
+    //DURAND CARLEE
+Classroom: 101
+
+//TC-57
+//Requirement:NR1
+//Expected Output:
+    //RACANELLO NOEL
+    //CORONADO DIMPLE
+    //BOYTER WAN
+    //KEMERER ROSETTA
+    //DEMARTINI DEWAYNE
+C: 102
+
+//TC-58
+//Requirement:NR1
+//Expected Output:
+    //SAELEE DANILO
+    //GARTH JOHN
+Classroom: 103
+
+//TC-59
+//Requirement:NR1
+//Expected Output:
+    //WOOLERY NOLAN
+    //VILARDO EMMANUEL
+C: 104
+
+//TC-60
+//Requirement:NR1
+//Expected Output:
+    //CORKER CARTER
+    //IMMERMAN DEVIN
+    //RAPOSE ALONZO
+    //OGAS ERVIN
+    //MASSART ELDON
+    //BEX TAMESHA
+C: 105
+
+//TC-61
+//Requirement:NR1
+//Expected Output:
+    //ZAPPAVIGNA ELLIOTT
+    //FRIEDSTROM REED
+C: 106
+
+//TC-62
+//Requirement:NR1
+//Expected Output:
+    //LIBRANDI TODD
+    //HAVIR BOBBIE
+    //SARAO DIEDRA
+    //VANCOTT MIKE
+    //WICINSKY TERESE
+    //KOZOLA BUSTER
+    //MULLINGS LEIGHANN
+    //BUSSMANN BILLY
+    //BERBES DICK
+    //MULGREW RANDELL
+    //TOWLEY LANE
+C: 108
+
+//TC-63
+//Requirement:NR1
+//Expected Output:
+    //SCHOENECKER PHUONG
+    //CLECKLER FLOY
+    //KRAKE VALENTIN
+    //CREMEANS RANDOLPH
+    //KREESE CARRIE
+C: 109
+
+//TC-64
+//Requirement:NR1
+//Expected Output:
+    //BRODERSEN HYE
+    //THEUNISSEN GRACE
+C: 110
+
+//TC-65
+//Requirement:NR1
+//Expected Output:
+    //STERBACK PETER
+    //FINCHMAN MATHILDA
+    //OBREIN STAN
+    //SAENPHIMMACHA NUMBERS
+    //BREVO JANNETTE
+    //BEAN INGER
+    //FEYEREISEN WILFREDO
+    //WERST LEON
+    //LAMKIN TAMA
+C: 111
+
+//TC-66
+//Requirement:NR1
+//Expected Output:
+    //WORBINGTON DEEDRA
+    //SPANICEK KENDRA
+    //GUICE CODI
+    //GLOR HUNG
+    //GUM NOAH
+    //NOVICK ROLLAND
+    //DELUNA KRYSTAL
+    //COMO ZANDRA
+C: 112
+
+//TC-67
+//Requirement:NR2
+//Expected Output:
+    //COOL REUBEN
+C: 101 T
+
+//TC-68
+//Requirement:NR2
+//Expected Output:
+    //KERBS BENITO
+Classroom: 102 Teachers
+
+//TC-69
+//Requirement:NR2
+//Expected Output:
+    //FALKER ADOLPH
+Classroom: 103 T
+
+//TC-70
+//Requirement:NR2
+//Expected Output:
+    //STEIB GALE
+    //HIMMEL STEVE
+C: 104 Teachers
+
+//TC-71
+//Requirement:NR2
+//Expected Output:
+    //HANTZ JED
+C: 105 T
+
+//TC-72
+//Requirement:NR2
+//Expected Output:
+    //BODZIONY LUZ
+C: 106 T
+
+//TC-73
+//Requirement:NR2
+//Expected Output:
+    //FAFARD ROCIO
+C: 107 T
+
+//TC-74
+//Requirement:NR2
+//Expected Output:
+    //HAMER GAVIN
+C: 108 T
+
+//TC-75
+//Requirement:NR2
+//Expected Output:
+    //GAMBREL JAE
+C: 109 T
+
+//TC-76
+//Requirement:NR2
+//Expected Output:
+    //ALPERT JONATHAN
+C: 110 T
+
+//TC-77
+//Requirement:NR2
+//Expected Output:
+    //NISTENDIRK NANCY
+C:111 T
+
+//TC-78
+//Requirement:NR2
+//Expected Output:
+    //CHIONCHIO PERLA
+C:112 T
+
+//TC-79
+//Requirement:NR3
+//Expected Output:
+    //FALKER ADOLPH
+G: 1 T
+
+//TC-80
+//Requirement:NR3
+//Expected Output:
+    //STEIB GALE
+    //HIMMEL STEVE
+    //HAMER GAVIN
+Grade: 2 Teachers
+
+//TC-81
+//Requirement:NR3
+//Expected Output:
+    //FAFARD ROCIO
+    //ALPERT JONATHAN
+G: 3 Teachers
+
+//TC-82
+//Requirement:NR3
+//Expected Output:
+    //HANTZ JED
+    //CHIONCHIO PERLA
+    //COOL REUBEN
+Grade: 4 T
+
+//TC-83
+//Requirement:NR3
+//Expected Output:
+G: 5 T
+
+//TC-84
+//Requirement:NR3
+//Expected Output:
+    //GAMBREL JAE
+    //KERBS BENITO
+    //NISTENDIRK NANCY
+    //BODZIONY LUZ
+G: 6 T
+
+//TC-85
+//Requirement:NR4
+//Expected Output:
+    //Classroom 101:
+    //DURAND CARLEE
+    //
+    //Classroom 102:
+    //RACANELLO NOEL
+    //CORONADO DIMPLE
+    //BOYTER WAN
+    //KEMERER ROSETTA
+    //DEMARTINI DEWAYNE
+    //
+    //Classroom 103:
+    //SAELEE DANILO
+    //GARTH JOHN
+    //
+    //Classroom 104:
+    //WOOLERY NOLAN
+    //VILARDO EMMANUEL
+    //
+    //Classroom 105:
+    //CORKER CARTER
+    //IMMERMAN DEVIN
+    //RAPOSE ALONZO
+    //OGAS ERVIN
+    //MASSART ELDON
+    //BEX TAMESHA
+    //
+    //Classroom 106:
+    //ZAPPAVIGNA ELLIOTT
+    //FRIEDSTROM REED
+    //
+    //Classroom 107:
+    //COOKUS XUAN
+    //ELHADDAD SHANTE
+    //SWEDLUND SHARRI
+    //CIGANEK MANIE
+    //COVINGTON TOMAS
+    //EARLY TORY
+    //LINHART LELA
+    //
+    //Classroom 108:
+    //LIBRANDI TODD
+    //HAVIR BOBBIE
+    //SARAO DIEDRA
+    //VANCOTT MIKE
+    //WICINSKY TERESE
+    //KOZOLA BUSTER
+    //MULLINGS LEIGHANN
+    //BUSSMANN BILLY
+    //BERBES DICK
+    //MULGREW RANDELL
+    //TOWLEY LANE
+    //
+    //Classroom 109:
+    //SCHOENECKER PHUONG
+    //CLECKLER FLOY
+    //KRAKE VALENTIN
+    //CREMEANS RANDOLPH
+    //KREESE CARRIE
+    //
+    //Classroom 110:
+    //BRODERSEN HYE
+    //THEUNISSEN GRACE
+    //
+    //Classroom 111:
+    //STERBACK PETER
+    //FINCHMAN MATHILDA
+    //OBREIN STAN
+    //SAENPHIMMACHA NUMBERS
+    //BREVO JANNETTE
+    //BEAN INGER
+    //FEYEREISEN WILFREDO
+    //WERST LEON
+    //LAMKIN TAMA
+    //
+    //Classroom 112:
+    //WORBINGTON DEEDRA
+    //SPANICEK KENDRA
+    //GUICE CODI
+    //GLOR HUNG
+    //GUM NOAH
+    //NOVICK ROLLAND
+    //DELUNA KRYSTAL
+    //COMO ZANDRA
+
+
+//TC-86
+//Requirement:NR5
+//Expected Output:
+    //Grade 1
+    //Average GPA 2.995
+    //High GPA 3.14
+    //Low GPA 2.85
+    //
+    //
+    //Grade 2
+    //Average GPA 2.946153846153846
+    //High GPA 3.22
+    //Low GPA 2.76
+    //
+    //
+    //Grade 3
+    //Average GPA 3.048888888888889
+    //High GPA 3.24
+    //Low GPA 2.79
+    //
+    //
+    //Grade 4
+    //Average GPA 2.951333333333334
+    //High GPA 3.12
+    //Low GPA 2.78
+    //
+    //
+    //Grade 6
+    //Average GPA 2.977142857142857
+    //High GPA 3.23
+    //Low GPA 2.78
+D: G
+
+//TC-87
+//Requirement:NR5
+//Expected Output:
+    //Bus 0
+    //Average GPA 2.9524999999999997
+    //High GPA 3.15
+    //Low GPA 2.8
+    //
+    //
+    //Bus 51
+    //Average GPA 3.0199999999999996
+    //High GPA 3.12
+    //Low GPA 2.91
+    //
+    //
+    //Bus 52
+    //Average GPA 2.885
+    //High GPA 3.07
+    //Low GPA 2.78
+    //
+    //
+    //Bus 53
+    //Average GPA 3.0555555555555554
+    //High GPA 3.22
+    //Low GPA 2.79
+    //
+    //
+    //Bus 54
+    //Average GPA 2.941666666666667
+    //High GPA 3.23
+    //Low GPA 2.82
+    //
+    //
+    //Bus 55
+    //Average GPA 3.036666666666667
+    //High GPA 3.24
+    //Low GPA 2.76
+    //
+    //
+    //Bus 56
+    //Average GPA 2.9216666666666664
+    //High GPA 3.13
+    //Low GPA 2.78
+    //
+    //
+ Data-Analytics: Bus
+
+
+//TC-88
+//Requirement:NR5
+//Expected Output:
+    //ALPERT  JONATHAN :
+    //Average GPA 3.17
+    //High GPA 3.23
+    //Low GPA 3.11
+    //
+    //
+    //BODZIONY  LUZ :
+    //Average GPA 3.09
+    //High GPA 3.15
+    //Low GPA 3.03
+    //
+    //
+    //CHIONCHIO  PERLA :
+    //Average GPA 2.985
+    //High GPA 3.1
+    //Low GPA 2.87
+    //
+    //
+    //COOL  REUBEN :
+    //Average GPA 2.91
+    //High GPA 2.91
+    //Low GPA 2.91
+    //
+    //
+    //FAFARD  ROCIO :
+    //Average GPA 3.0142857142857147
+    //High GPA 3.24
+    //Low GPA 2.79
+    //
+    //
+    //FALKER  ADOLPH :
+    //Average GPA 2.995
+    //High GPA 3.14
+    //Low GPA 2.85
+    //
+    //
+    //GAMBREL  JAE :
+    //Average GPA 2.96
+    //High GPA 3.15
+    //Low GPA 2.78
+    //
+    //
+    //HAMER  GAVIN :
+    //Average GPA 2.9545454545454546
+    //High GPA 3.22
+    //Low GPA 2.76
+    //
+    //
+    //HANTZ  JED :
+    //Average GPA 2.9133333333333336
+    //High GPA 3.12
+    //Low GPA 2.78
+    //
+    //
+    //HIMMEL  STEVE :
+    //Average GPA 2.9
+    //High GPA 2.92
+    //Low GPA 2.88
+    //
+    //
+    //KERBS  BENITO :
+    //Average GPA 2.976
+    //High GPA 3.13
+    //Low GPA 2.84
+    //
+    //
+    //NISTENDIRK  NANCY :
+    //Average GPA 2.962222222222222
+    //High GPA 3.23
+    //Low GPA 2.81
+    //
+    //
+    //STEIB  GALE :
+    //Average GPA 2.9
+    //High GPA 2.92
+    //Low GPA 2.88
+ D Teacher

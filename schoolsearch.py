@@ -36,7 +36,7 @@ def getGradeTeachers(df, df2):
         teachDf = teachDf.append(df2.where(row["Classroom"]== df2["Classroom"]).dropna())
     teachDf = teachDf.drop_duplicates(subset = "TLastName")
     for index, row in teachDf.iterrows():
-        print(f'{row["TLastName"]} {row["TFirstName"]}')
+        print(f'{row["TLastName"]}{row["TFirstName"]}')
 
 def gradeSearchOptions(cmd, df, df2):
     if cmd[0] == 'T':
@@ -101,9 +101,8 @@ def enrollmentSearch(cmd, df):
     classesDf = df.drop_duplicates(subset='Classroom')
     classesDf = classesDf.sort_values('Classroom')
     for index, row in classesDf.iterrows():
-        print(f'Classroom {row["Classroom"]}:')
+        print(f'\nClassroom {row["Classroom"]}:')
         classroomStudents(int(row["Classroom"]), df)
-        print(f'\n')
 
 def getGradeAnalytics(cmd, df):
     gradesDf = df.drop_duplicates(subset = 'Grade').dropna() 
