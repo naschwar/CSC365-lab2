@@ -1,0 +1,480 @@
+//CSC 365 Winter 2020
+//Lab 1-1 Test Suite
+
+//TC-1
+//Requirement: R4
+//Expected Output: CORONADO DIMPLE 6 102 KERBS BENITO
+S: CORONADO
+
+//TC-2
+//Requirement: R4 with no matching student
+//Expected Output: new prompt 
+Student: LEEEE
+
+TC-3
+//REQUIREMENT: R4
+Expected Output: LIBRANDI TODD 2 108 HAMER GAVIN
+S: LIBRANDI
+
+//TC-4
+//Requirement: R5
+//Expected Output: NOAH GUM 54
+Student: GUM BUS
+
+//TC-5
+//REQUIREMENT: R5
+//Expected Output: RAPOSE ALONZO 51
+Student: RAPOSE B
+
+//TC-6
+//Requirement: R6
+//Expected Output: 
+    //LIBRANDI TODD
+    //HAVIR BOBBIE
+    //SARAO DIEDRA
+    //VANCOTT MIKE
+    //WICINSKY TERESE
+    //KOZOLA BUSTER
+    //MULLINGS LEIGHANN
+    //BUSSMANN BILLY
+    //BERBES DICK
+    //MULGREW RANDELL
+    //TOWLEY LANE
+T: HAMER
+
+//TC-7
+//Requirement: R6
+//Expected Output:
+    //SCHOENECKER PHUONG
+    //CLECKLER FLOY
+    //KRAKE VALENTIN
+    //CREMEANS RANDOLPH
+    //KREESE CARRIE
+Teacher: GAMBREL
+
+//TC-8
+//Requirement: R6
+//Expected Output:
+    //COOKUS XUAN
+    //ELHADDAD SHANTE
+    //SWEDLUND SHARRI
+    //CIGANEK MANIE
+    //COVINGTON TOMAS
+    //EARLY TORY
+    //LINHART LELA
+T: FAFARD
+
+//TC-9
+//Requirement: R6
+//Expected Output:
+    //RACANELLO NOEL
+    //CORONADO DIMPLE
+    //BOYTER WAN
+    //KEMERER ROSETTA
+    //DEMARTINI DEWAYNE
+T: KERBS
+
+//TC-10
+//Requirement: R6
+//Expected Output:
+    //WOOLERY NOLAN
+    //VILARDO EMMANUEL
+T: STEIB
+
+//TC-11
+//Requirement: R6
+//Expected Output:
+    //STERBACK PETER
+    //FINCHMAN MATHILDA
+    //OBREIN STAN
+    //SAENPHIMMACHA NUMBERS
+    //BREVO JANNETTE
+    //BEAN INGER
+    //FEYEREISEN WILFREDO
+    //WERST LEON
+    //LAMKIN TAMA
+T: NISTENDIRK
+
+//TC-12
+//Requirement: R6
+//Expected Output:
+    //BRODERSEN HYE
+    //THEUNISSEN GRACE
+T: ALPERT
+
+//TC-13
+//Requirement: R6
+//Expected Output:
+    //CORKER CARTER
+    //IMMERMAN DEVIN
+    //RAPOSE ALONZO
+    //OGAS ERVIN
+    //MASSART ELDON
+    //BEX TAMESHA
+T: HANTZ
+
+//TC-14
+//Requirement: R6
+//Expected Output:
+    //ZAPPAVIGNA ELLIOTT
+    //FRIEDSTROM REED
+T: BODZIONY
+
+//TC-15
+//Requirement: R6
+//Expected Output:
+    //WORBINGTON DEEDRA
+    //SPANICEK KENDRA
+    //GUICE CODI
+    //GLOR HUNG
+    //GUM NOAH
+    //NOVICK ROLLAND
+    //DELUNA KRYSTAL
+    //COMO ZANDRA
+T: CHIONCHIO
+
+//TC-16
+//Requirement: R7
+//Expected Output:
+G: 0
+
+//TC-17
+//Requirement: R7
+//Expected Output:
+    //SAELEE DANILO
+    //GARTH JOHN
+G: 1
+
+//TC-18
+//Requirement: R7
+//Expected Output:
+    //WOOLERY NOLAN
+    //VILARDO EMMANUEL
+    //LIBRANDI TODD
+    //HAVIR BOBBIE
+    //SARAO DIEDRA
+    //VANCOTT MIKE
+    //WICINSKY TERESE
+    //KOZOLA BUSTER
+    //MULLINGS LEIGHANN
+    //BUSSMANN BILLY
+    //BERBES DICK
+    //MULGREW RANDELL
+    //TOWLEY LANE
+G: 2
+
+//TC-19
+//Requirement: R7
+//Expected Output:
+    //COOKUS XUAN
+    //ELHADDAD SHANTE
+    //BRODERSEN HYE
+    //SWEDLUND SHARRI
+    //CIGANEK MANIE
+    //COVINGTON TOMAS
+    //EARLY TORY
+    //LINHART LELA
+    //THEUNISSEN GRACE
+Grade: 3
+
+//TC-20
+//Requirement: R7
+//Expected Output:
+    //CORKER CARTER
+    //IMMERMAN DEVIN
+    //RAPOSE ALONZO
+    //WORBINGTON DEEDRA
+    //OGAS ERVIN
+    //SPANICEK KENDRA
+    //GUICE CODI
+    //GLOR HUNG
+    //GUM NOAH
+    //MASSART ELDON
+    //NOVICK ROLLAND
+    //DURAND CARLEE
+    //BEX TAMESHA
+    //DELUNA KRYSTAL
+    //COMO ZANDRA
+G: 4
+
+//TC-21
+//Requirement: R7
+//Expected Output:
+G: 5
+
+//TC-22
+//Requirement: R7
+//Expected Output:
+    //SCHOENECKER PHUONG
+    //RACANELLO NOEL
+    //STERBACK PETER
+    //FINCHMAN MATHILDA
+    //ZAPPAVIGNA ELLIOTT
+    //OBREIN STAN
+    //CORONADO DIMPLE
+    //SAENPHIMMACHA NUMBERS
+    //BOYTER WAN
+    //BREVO JANNETTE
+    //CLECKLER FLOY
+    //KRAKE VALENTIN
+    //KEMERER ROSETTA
+    //BEAN INGER
+    //DEMARTINI DEWAYNE
+    //CREMEANS RANDOLPH
+    //FEYEREISEN WILFREDO
+    //WERST LEON
+    //LAMKIN TAMA
+    //KREESE CARRIE
+    //FRIEDSTROM REED
+G: 6
+
+//TC-23
+//Requirement: R8
+//Expected Output:
+    //SCHOENECKER PHUONG Grade 6 Classroom 109
+    //FINCHMAN MATHILDA Grade 6 Classroom 111
+    //BRODERSEN HYE Grade 3 Classroom 110
+    //HAVIR BOBBIE Grade 2 Classroom 108
+    //MASSART ELDON Grade 4 Classroom 105
+    //GARTH JOHN Grade 1 Classroom 103
+    //CREMEANS RANDOLPH Grade 6 Classroom 109
+    //KREESE CARRIE Grade 6 Classroom 109
+Bus: 0
+
+//TC-24
+//Requirement: R8
+//Expected Output:
+    //WOOLERY NOLAN Grade 2 Classroom 104
+    //STERBACK PETER Grade 6 Classroom 111
+    //LIBRANDI TODD Grade 2 Classroom 108
+    //RAPOSE ALONZO Grade 4 Classroom 105
+    //COVINGTON TOMAS Grade 3 Classroom 107
+    //MULLINGS LEIGHANN Grade 2 Classroom 108
+    //DURAND CARLEE Grade 4 Classroom 101
+    //FRIEDSTROM REED Grade 6 Classroom 106
+Bus: 51
+
+//TC-25
+//Requirement: R8
+//Expected Output:
+    //COOKUS XUAN Grade 3 Classroom 107
+    //ELHADDAD SHANTE Grade 3 Classroom 107
+    //IMMERMAN DEVIN Grade 4 Classroom 105
+    //OBREIN STAN Grade 6 Classroom 111
+    //CORONADO DIMPLE Grade 6 Classroom 102
+    //SARAO DIEDRA Grade 2 Classroom 108
+    //EARLY TORY Grade 3 Classroom 107
+    //KEMERER ROSETTA Grade 6 Classroom 102
+B: 52
+
+//TC-26
+//Requirement: R8
+//Expected Output:
+    //CORKER CARTER Grade 4 Classroom 105
+    //WORBINGTON DEEDRA Grade 4 Classroom 112
+    //CIGANEK MANIE Grade 3 Classroom 107
+    //SPANICEK KENDRA Grade 4 Classroom 112
+    //CLECKLER FLOY Grade 6 Classroom 109
+    //WICINSKY TERESE Grade 2 Classroom 108
+    //LINHART LELA Grade 3 Classroom 107
+    //DELUNA KRYSTAL Grade 4 Classroom 112
+    //COMO ZANDRA Grade 4 Classroom 112
+B: 53
+
+//TC-27
+//Requirement: R8
+//Expected Output:
+    //OGAS ERVIN Grade 4 Classroom 105
+    //GUICE CODI Grade 4 Classroom 112
+    //BREVO JANNETTE Grade 6 Classroom 111
+    //VANCOTT MIKE Grade 2 Classroom 108
+    //GLOR HUNG Grade 4 Classroom 112
+    //SAELEE DANILO Grade 1 Classroom 103
+    //GUM NOAH Grade 4 Classroom 112
+    //BERBES DICK Grade 2 Classroom 108
+    //MULGREW RANDELL Grade 2 Classroom 108
+    //NOVICK ROLLAND Grade 4 Classroom 112
+    //THEUNISSEN GRACE Grade 3 Classroom 110
+    //TOWLEY LANE Grade 2 Classroom 108
+B: 54
+
+//TC-28
+//Requirement: R8
+//Expected Output:
+    //SWEDLUND SHARRI Grade 3 Classroom 107
+    //ZAPPAVIGNA ELLIOTT Grade 6 Classroom 106
+    //SAENPHIMMACHA NUMBERS Grade 6 Classroom 111
+    //BOYTER WAN Grade 6 Classroom 102
+    //KOZOLA BUSTER Grade 2 Classroom 108
+    //DEMARTINI DEWAYNE Grade 6 Classroom 102
+    //BEX TAMESHA Grade 4 Classroom 105
+    //WERST LEON Grade 6 Classroom 111
+    //LAMKIN TAMA Grade 6 Classroom 111
+B: 55
+
+//TC-29
+//Requirement: R8
+//Expected Output:
+    //RACANELLO NOEL Grade 6 Classroom 102
+    //VILARDO EMMANUEL Grade 2 Classroom 104
+    //KRAKE VALENTIN Grade 6 Classroom 109
+    //BEAN INGER Grade 6 Classroom 111
+    //BUSSMANN BILLY Grade 2 Classroom 108
+    //FEYEREISEN WILFREDO Grade 6 Classroom 111
+B: 56
+
+//TC-30
+//Requirement: R9
+//Expected Output:
+G: 0 H
+
+//TC-31
+//Requirement: R9
+//Expected Output:
+    //GARTH JOHN GPA 3.14 Teacher FALKER ADOLPH Bus 0
+G: 1 H
+
+//TC-32
+//Requirement: R9
+//Expected Output:
+    //SAELEE DANILO GPA 2.85 Teacher FALKER ADOLPH Bus 54
+G: 1 L
+
+//TC-33
+//Requirement: R9
+//Expected Output:
+    //WICINSKY TERESE GPA 3.22 Teacher HAMER GAVIN Bus 53
+G: 2 High
+
+//TC-34
+//Requirement: R9
+//Expected Output:
+    //KOZOLA BUSTER GPA 2.76 Teacher HAMER GAVIN Bus 55
+G: 2 Low
+
+//TC-35
+//Requirement: R9
+//Expected Output:
+    //SWEDLUND SHARRI GPA 3.24 Teacher FAFARD ROCIO Bus 55
+Grade: 3 H
+
+//TC-36
+//Requirement: R9
+//Expected Output:
+    //CIGANEK MANIE GPA 2.79 Teacher FAFARD ROCIO Bus 53
+G: 3 L
+
+//TC-37
+//Requirement: R9
+//Expected Output:
+    //CORKER CARTER GPA 3.12 Teacher HANTZ JED Bus 53
+Grade: 4 High
+
+//TC-38
+//Requirement: R9
+//Expected Output:
+    //IMMERMAN DEVIN GPA 2.78 Teacher HANTZ JED Bus 52
+Grade: 4 L
+
+//TC-39
+//Requirement: R9
+//Expected Output:
+G: 5 L
+
+//TC-40
+//Requirement: R9
+//Expected Output:
+    //LAMKIN TAMA GPA 3.23 Teacher NISTENDIRK NANCY Bus 55
+G: 6 H
+
+//TC-41
+//Requirement: R9
+//Expected Output:
+    //KRAKE VALENTIN GPA 2.78 Teacher GAMBREL JAE Bus 56
+G: 6 L
+
+//TC-42
+//Requirement:R10
+//Expected Output:
+A: 0
+
+//TC-43
+//Requirement:R10
+//Expected Output:
+    //Grade level 1
+    //Average GPA 2.995
+A: 1
+
+//TC-44
+//Requirement:R10
+//Expected Output:
+    //Grade level 2
+    //Average GPA 2.946153846153846
+A: 2
+
+//TC-45
+//Requirement:R10
+//Expected Output:
+    //Grade level 3
+    //Average GPA 3.048888888888889
+A: 3
+
+//TC-46
+//Requirement:R10
+//Expected Output:
+    //Grade level 4
+    //Average GPA 2.951333333333334
+Average: 4
+
+//TC-47
+//Requirement:R10
+//Expected Output:
+A: 5
+
+//TC-48
+//Requirement:R10
+//Expected Output:
+    //Grade level 6
+    //Average GPA 2.977142857142857
+Average: 6
+
+//TC-49
+//Requirement: R11
+//Expected Output:
+    //Grade 0: 0 students
+    //Grade 1: 2 students
+    //Grade 2: 13 students
+    //Grade 3: 9 students
+    //Grade 4: 15 students
+    //Grade 5: 0 students
+    //Grade 6: 21 students
+I
+
+//TC-50
+// Tests Requirments R3, R13
+// quit command
+// Expected output: program terminates
+Q
+
+//TC-51
+//Requirement: E1
+//invalid input
+//Expected Output: new prompt
+D
+
+//TC-52
+//Requirement: E1
+//invalid input
+//Expected Output: new prompt
+student: CORONADO
+
+//TC-53
+//Requirement: E1
+//invalid input
+//Expected Output: new prompt
+SS: CORONADO
+
+//TC-54
+//Requirement: E1
+//Unavailable "students.txt"
+//Expected Output: return from program without error message
